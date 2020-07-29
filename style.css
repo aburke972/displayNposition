@@ -14,29 +14,35 @@ headers{
 }
 
 #main-container{
-    margin: 10px;
+    /* margin: 10px; */
     width:100%;
     height: 600px;
     background-color: rgba(125,0,125,0.3);
 }
 
 #left-container{
-    margin: 10px;
+    /* margin: 10px; */
     height: 200px;
-    width: 40%;
+    width: 50%;
     background-color: rgba(0,125,125,0.3);
 }
 
-#central-container{
-    margin: 10px;
-    height: 250px;
-    width:60%;
-    background-color: rgba(0,0,255,0.3);
+.left-container-left{
+    transition: all ease-in-out 1s;
+    float: left;
 }
 
-.main-containers{
-    display: inline;
+.main-containers-inline-block{
+    display: inline-block;
 }
+#central-container{
+    /* margin: 10px; */
+    height: 250px;
+    width:50%;
+    background-color: rgba(0,0,255,0.3);
+
+}
+
 
 footer{
     margin: 10px;
